@@ -13,6 +13,16 @@ We care most about:
 - structural consistency
 - modern translation and safety
 
+## Quick Path To Propose A New Skill
+
+If you want to propose a new skill, keep it simple:
+
+1. Pick a person with real source material.
+2. Say what problem this skill should solve.
+3. Explain why ordinary people can use the method.
+4. List the main sources.
+5. Open an issue or PR.
+
 ## What Fits This Repository
 
 Good submissions:

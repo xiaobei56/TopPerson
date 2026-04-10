@@ -2,123 +2,163 @@
 
 # TopPerson
 
-`TopPerson` is an open-source repository of person-based skills for AI.
+`TopPerson` is an open-source repository of person-based AI skills.
 
-It is not a quote collection or a fandom project. It turns biographies, primary works, and credible research into structured skills that AI can use.
+It helps AI answer a practical question:
 
-The core question is:
-
-`If we handled a real problem in this person's style, how would we judge, decide, and act?`
+`How would a top person judge, decide, and act in this situation?`
 
 ## Contents
 
-- [Why This Repository](#why-this-repository)
-- [Core Principles](#core-principles)
-- [Reference Skill](#reference-skill)
-- [Skill Index](#skill-index)
-- [Person Backlog](#person-backlog)
-- [Quick Start](#quick-start)
-- [Contributing](#contributing)
-- [Repository Structure](#repository-structure)
+- [What It Does](#what-it-does)
+- [Main Use Cases](#main-use-cases)
+- [Current Skills](#current-skills)
+- [How To Use](#how-to-use)
+- [How To Propose A New Skill](#how-to-propose-a-new-skill)
+- [Contribution Rules](#contribution-rules)
 - [Validation](#validation)
 - [License](#license)
 
-## Why This Repository
+## What It Does
 
-Online content about notable people is often compressed into:
+TopPerson turns biographies, primary works, letters, speeches, interviews, and credible research into reusable skills.
 
-- motivational snippets
-- decontextualized “secrets”
-- exaggerated personal branding
+This repository is for:
 
-`TopPerson` does the opposite:
+- practical judgment
+- action planning
+- modern translation of historical or modern methods
 
-- go back to sources
-- extract reusable methods
-- define boundaries
-- turn them into actionable skills
+This repository is not for:
 
-## Core Principles
+- quote collections
+- fandom
+- empty motivation
+- harmful or manipulative guidance
 
-- `Source-first`
-  Prefer primary materials, use secondary research as support, and downgrade viral quote culture.
-- `Method-first`
-  Do not stop at biography. Extract reusable judgment frameworks.
-- `Modern translation`
-  Historical methods must be translated into modern, lawful, non-harmful contexts.
-- `Consistent structure`
-  Keep skills structured so they can be invoked reliably by AI.
+## Main Use Cases
 
-## Reference Skill
+You can use TopPerson skills to think through:
 
-| Skill | Person | What it does |
-| --- | --- | --- |
-| `zeng-guofan` | Zeng Guofan | Analyze real-world problems through Zeng Guofan's discipline, leadership, and judgment framework |
+- `Life`: self-discipline, habits, emotional stability, long-term direction
+- `Study`: learning methods, focus, explanation, practice, curiosity
+- `Work`: execution, management, communication, product judgment, decision-making
+- `Life guidance`: major choices, setbacks, transitions, values, how to act next
 
-Skill files:
-
-- [`zeng-guofan/SKILL.md`](./.agents/skills/zeng-guofan/SKILL.md)
-- [`zeng-guofan/references/source-map.md`](./.agents/skills/zeng-guofan/references/source-map.md)
-- [`zeng-guofan/references/principles.md`](./.agents/skills/zeng-guofan/references/principles.md)
-- Optional guide: [`zeng-guofan/references/overview.en.md`](./.agents/skills/zeng-guofan/references/overview.en.md)
-- Optional guide: [`zeng-guofan/references/overview.zh-CN.md`](./.agents/skills/zeng-guofan/references/overview.zh-CN.md)
-
-`zeng-guofan` remains the most fully-developed example skill.
-Initial draft skills now also exist for every person listed in the person backlog under [`.agents/skills`](./.agents/skills).
-
-## Skill Index
+## Current Skills
 
 Current repository status: `33` skill directories in [`.agents/skills`](./.agents/skills).
 
-### Mature Reference
+### Reference Skill
 
-`zeng-guofan` (Zeng Guofan)
+- [`zeng-guofan`](./.agents/skills/zeng-guofan/SKILL.md)
 
-### Draft Skills: P0 Refinement Priority
+### Other Available Skills
 
-`wang-yangming` (Wang Yangming), `su-shi` (Su Shi), `lei-jun` (Lei Jun), `duan-yongping` (Duan Yongping), `ren-zhengfei` (Ren Zhengfei), `cao-dewang` (Cao Dewang), `kazuo-inamori` (Kazuo Inamori), `warren-buffett` (Warren Buffett), `charlie-munger` (Charlie Munger), `andy-grove` (Andy Grove), `benjamin-franklin` (Benjamin Franklin), `richard-feynman` (Richard Feynman)
+- [`andy-grove`](./.agents/skills/andy-grove/SKILL.md)
+- [`benjamin-franklin`](./.agents/skills/benjamin-franklin/SKILL.md)
+- [`cao-cao`](./.agents/skills/cao-cao/SKILL.md)
+- [`cao-dewang`](./.agents/skills/cao-dewang/SKILL.md)
+- [`charlie-munger`](./.agents/skills/charlie-munger/SKILL.md)
+- [`duan-yongping`](./.agents/skills/duan-yongping/SKILL.md)
+- [`elon-musk`](./.agents/skills/elon-musk/SKILL.md)
+- [`haruki-murakami`](./.agents/skills/haruki-murakami/SKILL.md)
+- [`hayao-miyazaki`](./.agents/skills/hayao-miyazaki/SKILL.md)
+- [`jack-ma`](./.agents/skills/jack-ma/SKILL.md)
+- [`jeff-bezos`](./.agents/skills/jeff-bezos/SKILL.md)
+- [`jensen-huang`](./.agents/skills/jensen-huang/SKILL.md)
+- [`kazuo-inamori`](./.agents/skills/kazuo-inamori/SKILL.md)
+- [`kobe-bryant`](./.agents/skills/kobe-bryant/SKILL.md)
+- [`konosuke-matsushita`](./.agents/skills/konosuke-matsushita/SKILL.md)
+- [`lee-kuan-yew`](./.agents/skills/lee-kuan-yew/SKILL.md)
+- [`lei-jun`](./.agents/skills/lei-jun/SKILL.md)
+- [`luo-xiang`](./.agents/skills/luo-xiang/SKILL.md)
+- [`marcus-aurelius`](./.agents/skills/marcus-aurelius/SKILL.md)
+- [`napoleon`](./.agents/skills/napoleon/SKILL.md)
+- [`peter-drucker`](./.agents/skills/peter-drucker/SKILL.md)
+- [`rafael-nadal`](./.agents/skills/rafael-nadal/SKILL.md)
+- [`ray-dalio`](./.agents/skills/ray-dalio/SKILL.md)
+- [`ren-zhengfei`](./.agents/skills/ren-zhengfei/SKILL.md)
+- [`richard-feynman`](./.agents/skills/richard-feynman/SKILL.md)
+- [`steve-jobs`](./.agents/skills/steve-jobs/SKILL.md)
+- [`su-shi`](./.agents/skills/su-shi/SKILL.md)
+- [`wang-xing`](./.agents/skills/wang-xing/SKILL.md)
+- [`wang-yangming`](./.agents/skills/wang-yangming/SKILL.md)
+- [`warren-buffett`](./.agents/skills/warren-buffett/SKILL.md)
+- [`zhang-yiming`](./.agents/skills/zhang-yiming/SKILL.md)
+- [`zhuge-liang`](./.agents/skills/zhuge-liang/SKILL.md)
 
-### Draft Skills: P1 Refinement Priority
+See also:
 
-`zhang-yiming` (Zhang Yiming), `jensen-huang` (Jensen Huang), `wang-xing` (Wang Xing), `luo-xiang` (Luo Xiang), `hayao-miyazaki` (Hayao Miyazaki), `haruki-murakami` (Haruki Murakami), `steve-jobs` (Steve Jobs), `jeff-bezos` (Jeff Bezos), `konosuke-matsushita` (Konosuke Matsushita), `peter-drucker` (Peter Drucker), `rafael-nadal` (Rafael Nadal), `kobe-bryant` (Kobe Bryant)
+- English backlog: [`docs/person-backlog.md`](./docs/person-backlog.md)
+- Chinese backlog: [`docs/person-backlog.zh-CN.md`](./docs/person-backlog.zh-CN.md)
 
-### Draft Skills: P2 Refinement Priority
+## How To Use
 
-`elon-musk` (Elon Musk), `jack-ma` (Jack Ma), `cao-cao` (Cao Cao), `zhuge-liang` (Zhuge Liang), `napoleon` (Napoleon), `lee-kuan-yew` (Lee Kuan Yew), `ray-dalio` (Ray Dalio), `marcus-aurelius` (Marcus Aurelius)
+### 1. Browse skills
 
-## Person Backlog
+Open [`.agents/skills`](./.agents/skills) and choose a person.
 
-Repository planning documents for future person skills:
+### 2. Invoke a skill
 
-- English: [`docs/person-backlog.md`](./docs/person-backlog.md)
-- Chinese: [`docs/person-backlog.zh-CN.md`](./docs/person-backlog.zh-CN.md)
-
-The tiers in these backlog files now indicate refinement priority, not whether a skill directory exists.
-
-## Quick Start
-
-### 1. Browse Skills
-
-Browse [`.agents/skills`](./.agents/skills) or start from the `Skill Index` above to see available person skills.
-
-### 2. Use a Skill
-
-In a skill-enabled environment, invoke a skill like this:
+Example:
 
 ```text
-Use $zeng-guofan to analyze this situation in 曾国藩式做事风格，并给出可执行建议。
+Use $zeng-guofan to analyze this situation and give me actionable advice.
 ```
 
-### 3. Read a Skill Guide
+### 3. Ask by scenario
 
-Skill guides are optional and can live inside each skill directory.
+Example prompts:
 
-Recommended naming:
+```text
+Use $wang-yangming to help me stop overthinking and start acting.
+Use $richard-feynman to help me learn this topic clearly.
+Use $lei-jun to help me judge this product direction.
+Use $duan-yongping to help me decide whether this opportunity is worth doing.
+```
 
-- `references/overview.en.md`
-- `references/overview.zh-CN.md`
+## How To Propose A New Skill
 
-### 4. Validate Locally
+If you want to add a new person skill, use this simple path:
+
+1. Pick a person with real source material.
+2. Explain why ordinary people can use the method.
+3. State the main use case.
+4. List primary and secondary sources.
+5. Open an issue or PR.
+
+Start here:
+
+- [`CONTRIBUTING.md`](./CONTRIBUTING.md)
+- [`CONTRIBUTING.zh-CN.md`](./CONTRIBUTING.zh-CN.md)
+- [`docs/review-checklist.md`](./docs/review-checklist.md)
+- [`docs/review-checklist.zh-CN.md`](./docs/review-checklist.zh-CN.md)
+
+Recommended template files:
+
+- [`templates/person-skill/SKILL.md`](./templates/person-skill/SKILL.md)
+- [`templates/person-skill/references/source-map.md`](./templates/person-skill/references/source-map.md)
+- [`templates/person-skill/references/principles.md`](./templates/person-skill/references/principles.md)
+- [`templates/person-skill/agents/openai.yaml`](./templates/person-skill/agents/openai.yaml)
+
+## Contribution Rules
+
+Good contributions should be:
+
+- source-based
+- method-first
+- modern and safe
+- usable by AI
+
+Please avoid:
+
+- quote dumps
+- myth-making
+- fake sources
+- unlawful, deceptive, or harmful advice
+
+## Validation
 
 Run this before opening a PR:
 
@@ -126,92 +166,6 @@ Run this before opening a PR:
 python3 scripts/validate_skills.py
 ```
 
-### 5. Start From the Template
-
-When adding a new person skill, start from:
-
-- [`templates/person-skill/SKILL.md`](./templates/person-skill/SKILL.md)
-- [`templates/person-skill/references/source-map.md`](./templates/person-skill/references/source-map.md)
-- [`templates/person-skill/references/principles.md`](./templates/person-skill/references/principles.md)
-- Optional guide: [`templates/person-skill/references/overview.en.md`](./templates/person-skill/references/overview.en.md)
-- Optional guide: [`templates/person-skill/references/overview.zh-CN.md`](./templates/person-skill/references/overview.zh-CN.md)
-- [`templates/person-skill/agents/openai.yaml`](./templates/person-skill/agents/openai.yaml)
-
-## Contributing
-
-Contributions are welcome for historical figures, founders, investors, scholars, managers, and outstanding practitioners in specific domains.
-
-Please do not turn this repository into:
-
-- a quote dump
-- hero worship
-- unsourced self-help
-- manipulative, harmful, or pseudoscientific guidance
-
-Before contributing, read:
-
-- English: [`CONTRIBUTING.md`](./CONTRIBUTING.md)
-- Chinese: [`CONTRIBUTING.zh-CN.md`](./CONTRIBUTING.zh-CN.md)
-- English checklist: [`docs/review-checklist.md`](./docs/review-checklist.md)
-- Chinese checklist: [`docs/review-checklist.zh-CN.md`](./docs/review-checklist.zh-CN.md)
-- English PR template: [`.github/PULL_REQUEST_TEMPLATE.md`](./.github/PULL_REQUEST_TEMPLATE.md)
-- Chinese PR template: [`.github/PULL_REQUEST_TEMPLATE.zh-CN.md`](./.github/PULL_REQUEST_TEMPLATE.zh-CN.md)
-
-## Repository Structure
-
-```text
-.agents/skills/
-  <skill-name>/
-    SKILL.md
-    agents/openai.yaml
-    references/
-      source-map.md
-      principles.md
-      overview.en.md        # optional
-      overview.zh-CN.md     # optional
-
-docs/
-  person-backlog.md
-  person-backlog.zh-CN.md
-  review-checklist.md
-  review-checklist.zh-CN.md
-
-scripts/
-  validate_skills.py
-
-templates/
-  person-skill/
-    SKILL.md
-    agents/openai.yaml
-    references/
-      source-map.md
-      principles.md
-      overview.en.md        # optional
-      overview.zh-CN.md     # optional
-```
-
-## Validation
-
-The repository includes a local validation script and a GitHub Action.
-
-- local: `python3 scripts/validate_skills.py`
-- CI: `.github/workflows/validate-skills.yml`
-
-It checks:
-
-- skill directory naming
-- `SKILL.md` frontmatter
-- required files
-- key `openai.yaml` fields
-
-Optional overview files are not required.
-
 ## License
 
 This repository is released under the [`MIT License`](./LICENSE).
-
-This means:
-
-- code, scripts, and repository structure can be reused freely
-- only contribute content you have the right to submit
-- do not copy long copyrighted source texts into the repository
